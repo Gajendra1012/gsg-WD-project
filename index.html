@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio Website</title>
+
+    <!-- typed.js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+   
+    <!-- navbar code start here -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <a href="#home">GSG</a>
+        </div>
+        <ul class="menu" id="menu">
+            <li><a href="#home" onclick="menu()">Home</a></li>
+            <li><a href="#about" onclick="menu()">About</a></li>
+            <li><a href="#services" onclick="menu()">Services</a></li>
+            <li><a href="#portfolio" onclick="menu()">PortFolio</a></li>
+            <li><a href="#contact" onclick="menu()">Contact</a></li>
+        </ul>
+        <div class="menu-btn" onclick="menu()"><i class="fa fa-bars"></i></div>
+    </nav>
+
+    <!-- home section start here -->
+    <div class="home" id="home">
+        <div class="home-content">
+            <h1 class="name">Hello,I am Gajendra</h1>
+            <p><span class="typing"></span></p>
+        </div>
+    </div>
+
+    <!-- about section start here -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="info">
+                    <div class="personal">
+                        <div class="photo">
+                            <img src="images/testimonial-2.jpg" alt="">
+                        </div>
+                        <div class="name">
+                            <p><span>Name:</span> Gajendra Singh</p>
+                            <p><span>Profile:</span> Aspiring Software Developer</p>
+                            <p><span>Email:</span> gsg1617@gmail.com</p>
+                            <p><span>Phone:</span> 7905713705</p>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h4>Skills</h4>
+                        <div class="skill">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-line"><span class="html"></span></div>
+                        <div class="skill">
+                            <span>CSS</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="progress-line"><span class="css"></span></div>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <span>0%</span>
+                        </div>
+                        <div class="progress-line"><span class="javascript"></span></div>
+                    </div>
+                </div>
+                <div class="aboutme">
+                    <h5>About me</h5>
+                    <p>I am a 19 year old undergrad student currently studying in 3rd semester of my B.Tech degree in Computer Science and Engineering from United Institute of Technology, Prayagraj, Uttar Pradesh, India.</p>
+                    <p>I aspire to become a software engineer and make my career in the field of computer science and information technology.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start here -->
+    <section class="services" id="services">
+        <div class="container">
+            <h3 class="title">Services</h3>
+            <div class="line"></div>
+            <div class="services-content">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-code"></i></div>
+                        <div class="card-title">Web Development</div>
+                        <p>I can develop various kinds of websites and web pages with the help of HTML and CSS.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-mobile"></i></div>
+                        <div class="card-title">App Development</div>
+                        <p>I can develop basic functional android apps with drag and drop tools and technologies.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                        <div class="card-title">Web Design</div>
+                        <p>I can help you design your web pages or websites to make them attaractive to the users and help your businnes grow.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section start here -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h3 class="title">Portfolio</h3>
+            <div class="line"></div>
+            <div class="portfolio-content">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="web_development.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Project 1</h3>
+                            <p><span class="category">Web Development</span> / 20 Nov 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="web_design.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Project 2</h3>
+                            <p><span class="category">Web Design</span> / 20 Nov 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="app_development.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Project 3</h3>
+                            <p><span class="category">App Development</span> / 20 Nov 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    <!-- contact section start here -->
+    <section class="contact" id="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="contact-content">
+                <div class="message">
+                    <form>
+                        <h3 class="heading">Send me a message</h3>
+                        <div class="line"></div>
+                        <div class="field">
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="field">
+                            <input type="email" placeholder="Your Email">
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="field">
+                            <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="gettouch">
+                    <h3 class="heading">Get in Touch</h3>
+                    <div class="line"></div>
+                    <p>Feel free to reach out to me whenever you need my help.</p>
+                    <div class="info"><i class="fa fa-map-marker"></i> LIVES SOMEWHERE IN PRAYAGRAJ,UP,INDIA.</div>
+                    <div class="info"><i class="fa fa-phone"></i>7905713705</div>
+                    <div class="info"><i class="fa fa-envelope"></i>gsg1617@gmail.com</div>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/gajendra-singh-261240281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-linkedin"></i>
+                        <a href="https://wa.me/qr/OX5BXKZGRK63C1"><i class="fa fa-whatsapp"></i>
+                        <a href="https://www.quora.com/profile/Gajendra-Singh-1826?ch=3&oid=1103365267&share=3c0a06e0&srid=udDtAH&target_type=user"><i class="fa fa-quora"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
